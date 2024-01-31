@@ -73,7 +73,7 @@ function FormCategoria() {
 
             <form className="w-1/2 flex flex-col gap-4" onSubmit={gerarNovaCategoria}>
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="nome" className=" font-bold">nome da Categoria</label>
+                    <label htmlFor="nome" className=" font-bold">Nome da Categoria</label>
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
@@ -84,7 +84,7 @@ function FormCategoria() {
                     />
                 </div>
                 <button
-                    className="rounded font-bold bg-slate-400 hover:bg-slate-600
+                    className="rounded font-bold bg-violet-400 hover:bg-violet-400
                      w-1/2 py-2 mx-auto flex justify-center"
                     type="submit">
 

@@ -9,7 +9,7 @@ function Navbar() {
       <>
        <div className='w-full bg-violet-500 text-white flex justify-center py-4'>
             <div className="container flex justify-between text-lg">
-              <div className='text-2xl font-bold uppercase'>Loja de Games</div>
+              <div className='text-2xl font-bold uppercase'>Farmacia</div>
 
           <div className='flex gap-4'>
             <Link to='/home' className='hover:underline'>Produtos</Link>
