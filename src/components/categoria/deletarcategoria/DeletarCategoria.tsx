@@ -4,6 +4,7 @@ import Categoria from "../../../models/Categoria";
 import { buscar, deletar } from "../../../services/Service";
 import { RotatingLines } from "react-loader-spinner";
 
+
 function DeletarCategoria() {
 
     const navigate = useNavigate();
@@ -59,7 +60,7 @@ function DeletarCategoria() {
                     className='py-2 px-6 bg-slate-600 text-white font-bold text-2xl'>
                     Categoria
                 </header>
-                <p className='p-8 text-3xl bg-slate-00 h-full'>{categoria.tipo}</p>
+                <p className='p-8 text-3xl bg-slate-00 h-full'>{categoria.nome}</p>
                 <div className="flex">
                     <button
                         className='text-slate-100 bg-slate-400 hover:bg-slate-700 w-full py-2'

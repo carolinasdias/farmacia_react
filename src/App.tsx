@@ -12,12 +12,12 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="min-h-screen" >
+        <div className='min-h-[75vh]'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/categorias" element={<ListaCategorias />} />
-            <Route path="/cadastroCategoria" element={<FormCategoria />} />
+            <Route path="/cadastrarCategoria" element={<FormCategoria />} />
             <Route path="/editarCategoria/:id" element={<FormCategoria />} />
             <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
           </Routes>
